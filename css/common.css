@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+h1,
+h2,
+p {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-style: normal;
+  margin: 0;
+}
+
+#categories {
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  width: fit-content;
+  padding: 24px;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  border-radius: 8px;
+  background: #f6f6fe;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+#categories ul {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+}
+
+#categories ul > li {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  padding: 8px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin: auto;
+  padding: 0;
+  width: 1128px;
+}
+
+img {
+  height: 300px;
+  width: 360px;
+  object-fit: cover;
+}
+
+#name-input {
+  display: block;
+  height: 40px;
+  width: 360px;
+  border: 1px #808080 solid;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 24px auto 16px auto;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+#name-input + h1 {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button {
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  width: fit-content;
+  border: none;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border-color: #808080;
+  padding: 8px 16px;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+input:hover {
+  border-color: #111;
+}
+
+input:focus {
+  outline: none;
+  content: "Text area";
+}
+
+.login-form,
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+  font-style: normal;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.login-form {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form button {
+  margin-top: 8px;
+}
+
+.widget {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#controls,
+#boxes {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#controls {
+  margin-bottom: 16px;
+  width: 486px;
+}
+
+#boxes {
+  min-width: 486px;
+  max-width: 95%;
+  width: fit-content;
+}
+
+#controls input {
+  width: 150px;
+  text-align: center;
+}
+
+#controls button {
+  width: 120px;
+}
+
+#controls button + button {
+  background-color: #ff4e4e;
+}
+
+#controls button + button:hover {
+  background-color: #ff7070;
+}
